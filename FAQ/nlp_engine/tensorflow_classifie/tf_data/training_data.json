@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "BookTicket",
+      "patterns": [
+        "book a ticket",
+        "book ticket for 4 people",
+        "book ticket to hydrabad from pune",
+        "I want to book a ticket.",
+        "I want to book a ticket",
+        "I want to a ticket",
+        "Give me a ticket",
+        "ticket booking",
+        "I want to new ticket ",
+        "i need a ticket"
+      ]
+    },
+    {
+      "tag": "TicketStatus",
+      "patterns": [
+        "i want to know the status of my ticket",
+        "show me status of ticket",
+        "How can i see status of my ticket",
+        "how to know status of ticket",
+        "status",
+        "what is my ticket status",
+        "what is status of my ticket ",
+        "status of my ticket"
+      ]
+    },
+    {
+      "tag": "CancelTicket",
+      "patterns": [
+        "i want to cancel a ticket",
+        "how can i cancel a ticket",
+        "cancel my ticket",
+        "ticket cancel"
+        
+      ]
+    },
+    
+    {
+      "tag": "ReceivableForecast",
+      "patterns": [
+        "i want to know receivable forecast",
+        "i want receivable forecast",
+        "need receivable forecast",
+        "show me receivable forecast",
+        "show receivable forecast",
+        "receivable forecast",
+        "give me receivable forecast",
+        "show me receivable forecast amount",
+        "give me receivable forecast details",
+        "give me the amount of receivable forecast"
+
+
+      ]
+    },
+    {
+      "tag": "PaymentReminder",
+      "patterns": [
+        "i want to know payment reminder",
+        "i want to payment reminder",
+        "i need payment reminder",
+        "show me payment reminder",
+        "show payment reminder",
+        "payment reminder",
+        "how much my payment is remaining",
+        "provide payment reminder",
+        "give me payment reminder",
+        "make payment reminder",
+        "give payment details",
+        "what is the procedure to see payment reminder"
+
+
+
+      ]
+    },
+    {
+      "tag": "OutstandingCustomer",
+      "patterns": [
+        "i want to know outstanding customer",
+        "i want outstanding customer",
+        "i need outstanding customer",
+        "show me outstanding customer",
+        "show outstanding customer",
+        "outstanding customer",
+        "give me top outstanding customer",
+        "how can i see top outstanding customer",
+        "who are outstanding customer",
+        "provide outstanding customer",
+        "list of outstanding customer"
+
+
+      ]
+    },
+
+
+    {
+      "tag": "BuyLaptop",
+      "patterns": [
+        "i want to buy laptop",
+        "need laptop",
+        "show me laptop",
+        "show laptop",
+        "laptop"
+
+
+      ]
+    }
+  ]
+}

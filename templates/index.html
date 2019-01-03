@@ -1,0 +1,124 @@
+
+{% extends "base.html" %}
+{% load static from staticfiles %}
+
+{% if user.is_authenticated %}
+
+{% block treack_task %}
+ <!--/.row-->
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">{{ all_user }}</div>
+                                    <div>New Comments!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">{{ task }}</div>
+                                    <div>New Tasks!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">{{ entity }}</div>
+                                    <div>New Entity</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">{{ user_chat_session }}</div>
+                                    <div>Support Session</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6">-->
+                        <!--<a href="/faq/question_view"><button  type="button" class="btn btn-success">ChatBot</button></a>-->
+                     <!--</div>-->
+                     <!--<div class="col-lg-3 col-md-6">-->
+                         <!--<a href="/faq/entity"><button  type="button" class="btn btn-success">Entity Table</button></a>-->
+                     <!--</div>-->
+                     <!--<div class="col-lg-3 col-md-6">-->
+                        <!--<a href="/faq/intenttotask"><button  type="button" class="btn btn-success"> Intent to Task Table</button></a>-->
+                     <!--</div>-->
+                     <!--<div class="col-lg-3 col-md-6">-->
+                         <!--<a href="/faq/tasktoentity"><button  type="button" class="btn btn-success"> Task to Entity Table</button></a>-->
+                     <!--</div>-->
+                    <!--<div class="col-lg-3 col-md-6">-->
+                         <!--<a href="/faq/user_chat_data"><button  type="button" class="btn btn-success">Task to Entity USER Table</button></a>-->
+                     <!--</div>-->
+
+            <!--</div>-->
+
+            <!--&lt;!&ndash; /.row &ndash;&gt;-->
+
+{% endblock %}
+
+{% block body_block %}
+{% endblock %}
+
+{% endif %}

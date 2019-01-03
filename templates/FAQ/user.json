@@ -1,0 +1,14 @@
+{
+	"domain": "travelx",
+	"user": [
+
+	{
+		"task": "BookTicket",
+		"utterances": "I want to book a ticket",
+        "intent" :"",
+        "entity":"",
+
+	},
+
+	]
+}
