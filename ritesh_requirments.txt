@@ -47,7 +47,7 @@ Pillow==5.3.0
 plac==0.9.6
 preshed==2.0.1
 protobuf==3.6.1
-Pygments==2.2.0
+Pygments==2.7.4
 pymongo==3.7.2
 pyparsing==2.3.0
 pyreadline==2.1
